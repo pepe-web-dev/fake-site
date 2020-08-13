@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 3% 5%;
+    position: relative;
+}
+
+img.car {
+    display: inline-block;
+    width: 14rem;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.fake-taxi {
+    width: 20rem;
+    display: inline-block;
+    margin: 5rem auto 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 2.3rem 0 0;
+    display: inline-block;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    color: #b07c30;
+    text-decoration: none;
+}
+
+.second-item {
+    margin: 0 0 0 0.8rem;
+}
+
+a.logo {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+i {
+    color: #b07c30;
+}
+
+#home {
+    background: black;
+    color: #eee;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    margin: 2rem 0 0;
+    font-size: 1.5rem;
+}
+
+#contact {
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.dr-sins, .sins {
+    margin: 4rem auto 0;
+}
+
+.dr-sins {
+    width: 14rem;
+}
+
+@media (max-width: 950px) {
+    img {
+        width: 12rem;
+    }
+}
+
+@media (max-width: 550px) {
+    img {
+        width: 10rem;
+    }
+}
